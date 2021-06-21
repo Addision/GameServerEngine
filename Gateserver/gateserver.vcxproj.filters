@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NodeNet">
+      <UniqueIdentifier>{fcb9db8e-7aac-435f-a2f3-93c696ded933}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{042bf4e2-29a0-497c-816b-0e3c0fe50491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{2327ff62-5569-4dd6-bd7a-5a0deb764b21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PlayerNetServer.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="GateNetClient.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="GateNetServer.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.hpp">
+      <Filter>Service</Filter>
+    </ClInclude>
+    <ClInclude Include="GateServer.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PlayerNetServer.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="GateNetClient.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="GateNetServer.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Service</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GateServer.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

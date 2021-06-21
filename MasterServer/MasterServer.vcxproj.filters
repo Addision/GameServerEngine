@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="NodeNet">
+      <UniqueIdentifier>{6dcff746-a201-4c65-b2ab-166724a1290e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{5dd994f9-17d1-40f3-ad31-ae509a9e1e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Service">
+      <UniqueIdentifier>{62192403-adb6-457c-8548-d3405f3e7c1d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MasterNetServer.cpp">
+      <Filter>NodeNet</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="MasterServer.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MasterNetServer.hpp">
+      <Filter>NodeNet</Filter>
+    </ClInclude>
+    <ClInclude Include="MasterServer.hpp">
+      <Filter>App</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

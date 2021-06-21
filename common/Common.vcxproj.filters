@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="CommonDefines.hpp" />
+    <ClInclude Include="json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonConfig.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="LogSystem.hpp" />
+    <ClInclude Include="DateTime.hpp" />
+    <ClInclude Include="Util.hpp" />
+    <ClInclude Include="mariacpp\bits\bind.hpp" />
+    <ClInclude Include="mariacpp\connection.hpp" />
+    <ClInclude Include="mariacpp\exception.hpp" />
+    <ClInclude Include="mariacpp\lib.hpp" />
+    <ClInclude Include="mariacpp\prepared_stmt.hpp" />
+    <ClInclude Include="mariacpp\resultset.hpp" />
+    <ClInclude Include="mariacpp\time.hpp" />
+    <ClInclude Include="mariacpp\uri.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="JsonConfig.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="LogSystem.cpp" />
+    <ClCompile Include="Util.cpp" />
+    <ClCompile Include="mariacpp\bind.cpp" />
+    <ClCompile Include="mariacpp\connection.cpp" />
+    <ClCompile Include="mariacpp\exception.cpp" />
+    <ClCompile Include="mariacpp\lib.cpp" />
+    <ClCompile Include="mariacpp\ma_time.c" />
+    <ClCompile Include="mariacpp\prepared_stmt.cpp" />
+    <ClCompile Include="mariacpp\resultset.cpp" />
+    <ClCompile Include="mariacpp\time.cpp" />
+    <ClCompile Include="mariacpp\uri.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="json">
+      <UniqueIdentifier>{4fa418f4-7e58-41ed-994a-9e2e239add68}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
